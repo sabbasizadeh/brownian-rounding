@@ -74,6 +74,7 @@ The paper proposes three functions $g_1$, $g_2$, and $g_3$:
 $$g_1(x,y)=1-xy-\cos(\theta)\sqrt{x-x^2}\sqrt{y-y^2},$$  
 $$g_2(x,y)=1-xy-2\cos(\theta)(x-x^2)(y-y^2),$$  
 $$g_3(x,y)=1-xy-\frac12(1+5 \cos(\theta))(x-x^2)(y-y^2)(x+y)(2-x-y),$$  
+
 and proves the results for $g_1$ analytically. Here, we have included the SoS proofs for the two mentioned criteria for both 
 $g_2$ and $g_3$ and the codes are as follows:  
 
