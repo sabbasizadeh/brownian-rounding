@@ -36,7 +36,7 @@ In what follows, <img src="/tex/f19c5e6eb3a3636eb27cae3071665f74.svg?invert_in_d
 change that <img src="/tex/f19c5e6eb3a3636eb27cae3071665f74.svg?invert_in_darkmode&sanitize=true" align=middle width=110.72923784999999pt height=24.65753399999998pt/> explicitly states the objective of clause <img src="/tex/9b325b9e31e85137d1de765f43c0f8bc.svg?invert_in_darkmode&sanitize=true" align=middle width=12.92464304999999pt height=22.465723500000017pt/> in terms of its inputs 
 (instead of <img src="/tex/b4186a7f11d640316d31f146ea79ef3f.svg?invert_in_darkmode&sanitize=true" align=middle width=37.67316464999999pt height=14.15524440000002pt/> and <img src="/tex/64f56542d8c96b6573f52b8e6135215f.svg?invert_in_darkmode&sanitize=true" align=middle width=20.15039564999999pt height=14.15524440000002pt/>).
 
-![Algorithm 1](https://github.com/sabbasizadeh/brownian-rounding/blob/master/alg1.png "Algorithm 1")
+![Algorithm 1](https://github.com/sabbasizadeh/brownian-rounding/tree/master/tex/alg1.png "Algorithm 1")
 
 Algorithm 1 discards all the configurations which violate the triangle inequalities as they cannot be appeared in the 
 solution of the SDP.
