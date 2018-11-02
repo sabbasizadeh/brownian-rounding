@@ -74,6 +74,7 @@ The paper proposes three functions <img src="/tex/a50c3a6cce0c5b640cc5bef1d62b99
 <p align="center"><img src="/tex/4e439908eadd690a655edba5605a50a7.svg?invert_in_darkmode&sanitize=true" align=middle width=313.14469065pt height=20.91216765pt/></p>  
 <p align="center"><img src="/tex/1ea7292e3e9cf1a3d9796f1e65eb291b.svg?invert_in_darkmode&sanitize=true" align=middle width=316.79773124999997pt height=18.312383099999998pt/></p>  
 <p align="center"><img src="/tex/49e9b6e32c4d2a82903e7187c904df9b.svg?invert_in_darkmode&sanitize=true" align=middle width=500.21000204999996pt height=32.990165999999995pt/></p>  
+
 and proves the results for <img src="/tex/a50c3a6cce0c5b640cc5bef1d62b99bd.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> analytically. Here, we have included the SoS proofs for the two mentioned criteria for both 
 <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> and <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> and the codes are as follows:  
 
