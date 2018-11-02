@@ -3,8 +3,8 @@ This is an implementation of the algorithms described in the paper "Sticky Brown
 to Constraint Satisfaction Problem" for getting the approximation factors.
 
 ## 1. Extensions of the Brownian Rounding
-We consider the following extensions:
-1.1. Brownian Rounding with Slowdown 
+We consider the following extensions:  
+1.1. Brownian Rounding with Slowdown   
 1.2. Higher-Dimension Brownian Rounding
 
 ### 1.1. Brownian Rounding with Slowdown
@@ -52,7 +52,7 @@ the rounding with high probability.
 
 We implemented both of these approaches for the walk with <img src="/tex/1924b0e737a1c5c085f6e7f1b0fa4840.svg?invert_in_darkmode&sanitize=true" align=middle width=40.713337499999994pt height=21.18721440000001pt/>, and as we expected, we observed that the results of these 
 two approaches are consistent.
-Nonetheless, in all of the reported results, we employed the PDE approach for computing <img src="/tex/f3778000bfc0ee846c972a558e10d161.svg?invert_in_darkmode&sanitize=true" align=middle width=189.68401319999998pt height=24.65753399999998pt/>conf_{ij}<img src="/tex/ee28c74bfb67b15c2001f65843f8c94a.svg?invert_in_darkmode&sanitize=true" align=middle width=6.39271709999999pt height=24.65753399999998pt/>. 
+Nonetheless, in all of the reported results, we employed the PDE approach for computing <img src="/tex/a47c8a76f36899d4f249512efb68d4dc.svg?invert_in_darkmode&sanitize=true" align=middle width=240.65072955pt height=24.65753399999998pt/>. 
 (I.e., in order to get the final approximation result, you should run `brownian_probability_generator.m` and then feed its 
 output to `approximation_ratio_finder.sage`.)
 Note that from the practical point of view, it is straightforward to extend this framework to higher dimensional configurations as
@@ -76,8 +76,9 @@ The paper proposes three functions <img src="/tex/a50c3a6cce0c5b640cc5bef1d62b99
 <p align="center"><img src="/tex/49e9b6e32c4d2a82903e7187c904df9b.svg?invert_in_darkmode&sanitize=true" align=middle width=500.21000204999996pt height=32.990165999999995pt/></p>  
 and proves the results for <img src="/tex/a50c3a6cce0c5b640cc5bef1d62b99bd.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> analytically. Here, we have included the SoS proofs for the two mentioned criteria for both 
 <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> and <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/> and the codes are as follows:  
-`g2_D.m`: a Matlab code which proves (1) for <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
-`g2_approax.m`: a Matlab code which proves (2) for <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
-`g3_D.m`: a Matlab code which proves (1) for <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
-`g3_approax.m`: a Matlab code which proves (2) for <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.
+
+ `g2_D.m`: a Matlab code which proves (1) for <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
+ `g2_approax.m`: a Matlab code which proves (2) for <img src="/tex/3a0999540a345758e8259a30f523c1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
+ `g3_D.m`: a Matlab code which proves (1) for <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.  
+ `g3_approax.m`: a Matlab code which proves (2) for <img src="/tex/216062a7dbe9fffb932503cbaf2b6fcc.svg?invert_in_darkmode&sanitize=true" align=middle width=14.393129849999989pt height=14.15524440000002pt/>.
 
