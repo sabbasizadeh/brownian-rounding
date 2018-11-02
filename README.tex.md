@@ -3,8 +3,8 @@ This is an implementation of the algorithms described in the paper "Sticky Brown
 to Constraint Satisfaction Problem" for getting the approximation factors.
 
 ## 1. Extensions of the Brownian Rounding
-We consider the following extensions:
-1.1. Brownian Rounding with Slowdown 
+We consider the following extensions:  
+1.1. Brownian Rounding with Slowdown   
 1.2. Higher-Dimension Brownian Rounding
 
 ### 1.1. Brownian Rounding with Slowdown
@@ -52,7 +52,7 @@ the rounding with high probability.
 
 We implemented both of these approaches for the walk with $\alpha=0$, and as we expected, we observed that the results of these 
 two approaches are consistent.
-Nonetheless, in all of the reported results, we employed the PDE approach for computing ${\sc{Get-Rounding-Value($conf_{ij}$)}}$. 
+Nonetheless, in all of the reported results, we employed the PDE approach for computing ${\sc{Get-Rounding-Value(conf_{ij})}}$. 
 (I.e., in order to get the final approximation result, you should run `brownian_probability_generator.m` and then feed its 
 output to `approximation_ratio_finder.sage`.)
 Note that from the practical point of view, it is straightforward to extend this framework to higher dimensional configurations as
@@ -76,8 +76,9 @@ $$g_2(x,y)=1-xy-2\cos(\theta)(x-x^2)(y-y^2),$$
 $$g_3(x,y)=1-xy-\frac12(1+5 \cos(\theta))(x-x^2)(y-y^2)(x+y)(2-x-y),$$  
 and proves the results for $g_1$ analytically. Here, we have included the SoS proofs for the two mentioned criteria for both 
 $g_2$ and $g_3$ and the codes are as follows:  
-`g2_D.m`: a Matlab code which proves (1) for $g_2$.  
-`g2_approax.m`: a Matlab code which proves (2) for $g_2$.  
-`g3_D.m`: a Matlab code which proves (1) for $g_3$.  
-`g3_approax.m`: a Matlab code which proves (2) for $g_3$.
+
+ `g2_D.m`: a Matlab code which proves (1) for $g_2$.  
+ `g2_approax.m`: a Matlab code which proves (2) for $g_2$.  
+ `g3_D.m`: a Matlab code which proves (1) for $g_3$.  
+ `g3_approax.m`: a Matlab code which proves (2) for $g_3$.
 
