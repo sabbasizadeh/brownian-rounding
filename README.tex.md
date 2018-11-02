@@ -36,7 +36,7 @@ In what follows, $obj_C(x_i,x_j, \theta_{ij})$ is equivalent with $p_C(x)$ as de
 change that $obj_C(x_i,x_j, \theta_{ij})$ explicitly states the objective of clause $C$ in terms of its inputs 
 (instead of $x_i, x_j$ and $x_{ij}$).
 
-![Algorithm 1](https://github.com/sabbasizadeh/brownian-rounding/blob/master/alg1.png "Algorithm 1")
+![Algorithm 1](https://github.com/sabbasizadeh/brownian-rounding/tree/master/tex/alg1.png "Algorithm 1")
 
 Algorithm 1 discards all the configurations which violate the triangle inequalities as they cannot be appeared in the 
 solution of the SDP.
